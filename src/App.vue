@@ -20,7 +20,7 @@
       <v-spacer/>
       <v-btn icon @click="()=>{
           isDark=!isDark;
-          isDark?iconDark='mdi-brightness-1':iconDark='mdi-brightness-6'
+          isDark?iconDark='mdi-brightness-7':iconDark='mdi-brightness-6'
           this.$vuetify.theme.dark=isDark;
         }">
         <v-icon>{{iconDark}}</v-icon>
